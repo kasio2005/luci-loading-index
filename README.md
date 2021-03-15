@@ -10,7 +10,8 @@ Replacing LuCI's index page
 # Install
 
 1. Using `scp` to copy your custom designed index loading page to `/root` or it's children directory (and **DO NOT** copy it to `/www` directly in this step which may revert to default index page if upgrading LuCI.
-2. Create a shell script under `/etc/init.d` which the source should be look like this:
+2. Using `ssh` to access OpenWRT router.
+3. Create a shell script under `/etc/init.d` which the source should be look like this:
 ```sh
 #!/bin/sh
 
