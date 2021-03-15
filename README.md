@@ -17,8 +17,8 @@ Replacing LuCI's index page
 
 cp /path/to/custom_index/index.html /www/index.html
 ```
-3. Run command `chmod +x /etc/init.d/<the_script_file_name>.sh && /etc/init.d/<the_script_file_name>.sh enable`
-4. (Optional) You can manually copy file to `/www` now.
+4. Run command `chmod +x /etc/init.d/<the_script_file_name>.sh && /etc/init.d/<the_script_file_name>.sh enable`
+5. (Optional) You can manually copy file to `/www` now.
 
 Welcome to fork
 
